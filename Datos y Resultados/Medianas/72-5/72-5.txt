@@ -1,0 +1,26 @@
+Model name:  'LPSolver' - run #1
+Objective:   Maximize(R0)
+
+SUBMITTED
+Model size:     6772 constraints,   12672 variables,        42672 non-zeros.
+Sets:                                   0 GUB,                  0 SOS.
+
+Using DUAL simplex for phase 1 and PRIMAL simplex for phase 2.
+The primal and dual simplex pricing strategy set to 'Devex'.
+
+Relaxed solution                 292 after      33420 iter is B&B base.
+
+Feasible solution                292 after      33678 iter,         8 nodes (gap 0.0%)
+
+Optimal solution                 292 after      33678 iter,         8 nodes (gap 0.0%).
+Relative numeric accuracy ||*|| = 1.44329e-015
+
+MEMO: lp_solve version 5.5.2.11 for 32 bit OS, with 64 bit REAL variables.
+In the total iteration count 33678, 24784 (73.6%) were bound flips.
+There were 35 refactorizations, 0 triggered by time and 0 by density.
+... on average 254.1 major pivots per refactorization.
+The largest [LUSOL v2.2.1.0] fact(B) had 7803 NZ entries, 1.0x largest basis.
+The maximum B&B level was 9, 0.0x MIP order, 9 at the optimal solution.
+The constraint matrix inf-norm is 2, with a dynamic range of 2.
+Time to load data was 0.652 seconds, presolve used 0.012 seconds,
+... 5.600 seconds in simplex solver, in total 6.264 seconds.
